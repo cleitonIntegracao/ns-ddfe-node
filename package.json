@@ -1,0 +1,19 @@
+{
+  "name": "ddfe-node",
+  "version": "1.0.0",
+  "description": "Lib para comunicação com a API de DDFe NS Tecnologia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleitonIntegracao/ns-ddfe-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleitonIntegracao/ns-ddfe-node/issues"
+  },
+  "homepage": "https://github.com/cleitonIntegracao/ns-ddfe-node#readme"
+}
