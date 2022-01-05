@@ -1,11 +1,11 @@
 // Exemplo Download de Evento de 
 
-const downloadLot = require('./node_modules/ns-ddfe-node/ns_modules/ddfe_module/Consumo da API DDFe/downloadLote')
+const downloadLot = require('ns-ddfe-node/ns_modules/ddfe_module/ddfe_API/downloadLote')
 
 let corpo = new downloadLot.Body(
-    "07364617000135",
-    00,
-    "true"
+    "CNPJ do interessado",
+    2345,
+    "false"
 )
 
-downloadLot.sendPostRequest(corpo,"./docs/ddfe").then(getResponse => { console.log(getResponse) })
+downloadLot.sendPostRequest(corpo,"./docs/ddfeLot").then(getResponse => { console.log(getResponse) })

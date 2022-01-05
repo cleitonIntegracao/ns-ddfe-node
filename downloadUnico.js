@@ -1,10 +1,10 @@
 // Exemplo Download de Evento de 
 
-const downloadUnic = require('./node_modules/ns-ddfe-node/ns_modules/ddfe_module/Consumo da API DDFe/downloadUnic')
+const downloadUnic = require('./node_modules/ns-ddfe-node/ns_modules/ddfe_module/ddfe_API/downloadUnic')
 
 let corpo = new downloadUnic.Body(
-    "43211007364617000135570000000023881000003305",
-    "07364617000135"
+    "Chave para download",
+    "CNPJ do interessado"
 )
 
-downloadUnic.sendPostRequest(corpo,"./docs/ddfe").then(getResponse => { console.log(getResponse) })
+downloadUnic.sendPostRequest(corpo,"./docs/ddfeUnic").then(getResponse => { console.log(getResponse) })
